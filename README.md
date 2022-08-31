@@ -2,7 +2,6 @@
 
 ## HOW TO RUN THE PROGRAM
 - Before running the program compile with 'make' command
-- Must use linux based system. 
 
 1. To run the code with 10 random points
 	- type: ./chull < 10.txt
