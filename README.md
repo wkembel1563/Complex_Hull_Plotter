@@ -88,24 +88,34 @@ The last part of main.cpp makes a system call to run the python script which tak
 convex_hull.txt points with all original Q points and the convex hull points as input. 
 Q and the convex hull are plotted in different plots for easy comparison. 
 
-TXT Files:
+### TXT Files:
  
 10.txt
-	- contains filename 10_point.txt to allow redirection 
+- contains filename 10_point.txt to allow redirection 
+
 1000.txt
-	- contains filename 1000_point.txt to allow redirection 
+- contains filename 1000_point.txt to allow redirection 
+
 1000_point.txt
-	- contains 1000 random points 
+- contains 1000 random points 
+
 10_point.txt
-	- contains 10 random points 
+- contains 10 random points 
+
 special.txt
-	- contains filename special_cases.txt to allow redirection 
+- contains filename special_cases.txt to allow redirection 
+
 special_cases.txt
-	- contains handpicked special case points plus some extra points
+- contains handpicked special case points plus some extra points
+
 convex_hull.txt
-	- contains Q and convex hull point output from C++ 
+- contains Q and convex hull point output from C++ 
+
 default_filename.txt
-	- contains filename rand_points.txt which contains 20 random points generated at runtime by the c++ program 
-	- can be used for redirection 
+- contains filename rand_points.txt which contains 20 random points generated at 
+	
+runtime by the c++ program 
+- can be used for redirection 
+
 rand_points.txt
-	- contains 20 new randomly generated points after each run of the program
+- contains 20 new randomly generated points after each run of the program
