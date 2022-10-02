@@ -4,20 +4,20 @@
 - Before running the program compile with 'make' command
 
 1. To run the code with 10 random points
-	- type: ./chull < 10.txt
+	- ./chull < 10.txt
 
 2. To run the code with 1000 random points 
-	- type: ./chull < 1000.txt
+	- ./chull < 1000.txt
 
 3. To run the code with hand picked special cases 
-	- type: ./chull < special.txt
+	- ./chull < special.txt
 
 4. To run with any input file
-	- type: ./chull
+	- ./chull
 	- Enter filename when prompted 
 
 5. To run with 20 NEW points generated randomly at runtime 
-	- type: ./chull < default_filename.txt
+	- ./chull < default_filename.txt
 
 
 ## HOW THE CODE IS STRUCTURED
@@ -61,8 +61,6 @@ into a Max Heap based on their polar angle relative to the bottom-most point,
 and then applies heapsort to remove each max of the heap, replace it with the 
 last element of the vector, and then place the max at the end of the vector. 
 sinkDown is called to restore the heap properties after each swap. 
-
-All polar angles are determines via 
 
 Each successive max value is placed before the previous max at the end of the vector, 
 so the result after heap sort is the points sorted from min to max from the 0th to 
